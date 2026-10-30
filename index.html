@@ -17,7 +17,6 @@
 
         body {
             background-color: #000000;
-            /* רקע כהה אבסטרקטי עם מרקם גראנג' וסלעים קל בהתאם לתמונה */
             background-image: 
                 radial-gradient(circle at 50% 30%, rgba(255, 255, 255, 0.03) 0%, transparent 70%),
                 linear-gradient(180deg, #050505 0%, #000000 100%);
@@ -33,7 +32,6 @@
             position: relative;
         }
 
-        /* אפקט השפרצות רקע עדין בצדדים */
         body::before {
             content: "";
             position: absolute;
@@ -87,7 +85,6 @@
             100% { transform: scale(1.02); opacity: 1; }
         }
 
-        /* כותרת PORATINIO עם פונט מברשת (Grunge) בדיוק כמו בתמונה */
         .brand-name {
             font-family: 'Permanent Marker', 'Montserrat', sans-serif;
             font-size: 52px;
@@ -109,7 +106,6 @@
             margin-bottom: 25px;
         }
 
-        /* לוגו הדרקון הרשמי במרכז */
         .logo-icon {
             font-size: 28px;
             color: #ffffff;
@@ -126,7 +122,6 @@
             margin-bottom: 45px;
         }
 
-        /* כפתורים עם מסגרת ניאון לבנה וזוהרת מעוגלת */
         .link-item {
             display: flex;
             align-items: center;
@@ -140,7 +135,6 @@
             transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
         }
 
-        /* אפקט זוהר חזק במעבר עכבר */
         .link-item:hover {
             border-color: #ffffff;
             box-shadow: 0 0 25px rgba(255, 255, 255, 0.4);
@@ -157,7 +151,6 @@
             align-items: center;
         }
 
-        /* צבעי האייקונים בדיוק לפי העיצוב החדש */
         .fa-youtube { color: #ff0000; filter: drop-shadow(0 0 4px rgba(255,0,0,0.3)); }
         .fa-discord { color: #5865F2; filter: drop-shadow(0 0 4px rgba(88,101,242,0.3)); }
         .fa-tiktok { color: #ffffff; filter: drop-shadow(0 0 4px rgba(255,255,255,0.3)); }
@@ -195,7 +188,6 @@
             transform: translateX(-3px);
         }
 
-        /* אייקונים קטנים בתחתית בתוך עיגולים זוהרים עדינים */
         .footer-icons {
             display: flex;
             gap: 18px;
@@ -238,19 +230,19 @@
 
     <div class="container">
         
-        <!-- פרופיל עם אפקט הילה לבנה ועשן מהעיצוב החדש -->
+        <!-- פרופיל -->
         <div class="avatar-container">
-    <img src="avatar.jpg" alt="PORATINIO" class="avatar">
-</div>
+            <img src="./avatar.jpg" alt="PORATINIO" class="avatar">
+        </div>
 
-        <!-- שם הפרופיל בפונט מברשת פראי -->
+        <!-- שם הפרופיל -->
         <h1 class="brand-name">PORATINIO</h1>
         <p class="subtitle">• STREAMER • CONTENT CREATOR •</p>
 
-        <!-- לוגו דרקון גיימינג הרשמי של הערוץ -->
+        <!-- לוגו דרקון -->
         <div class="logo-icon"><i class="fa-solid fa-dragon"></i></div>
 
-        <!-- רשימת כפתורי הניאון הזוהרים -->
+        <!-- רשימת קישורים -->
         <div class="links-list">
 
             <!-- יוטיוב -->
@@ -275,7 +267,6 @@
 
             <!-- קיק -->
             <a href="https://kick.com/poratinio" target="_blank" class="link-item">
-                <!-- אייקון של Kick מותאם אישית בצבע הרשמי ובצורה המקורית של העיצוב -->
                 <div class="social-icon"><span style="color:#53fc18; font-weight:900; font-family:'Montserrat'; font-size: 24px; filter: drop-shadow(0 0 6px rgba(83,252,24,0.4));">K</span></div>
                 <div class="link-text">
                     <span class="link-title">KICK</span>
@@ -296,7 +287,7 @@
 
         </div>
 
-        <!-- אייקונים עגולים בתחתית -->
+        <!-- אייקונים בתחתית -->
         <div class="footer-icons">
             <a href="https://www.youtube.com/@PORATINIO/videos" target="_blank" class="footer-icon-link"><i class="fa-brands fa-youtube"></i></a>
             <a href="https://discord.gg/Jg5ywSYwUD" target="_blank" class="footer-icon-link"><i class="fa-brands fa-discord"></i></a>
